@@ -1,0 +1,55 @@
+.Sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  padding: 1rem;
+  background-color: #ddf;
+
+  .title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    color: rgb(90, 90, 90);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    flex: 1;
+
+    li {
+      a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 0.5rem;
+        border-bottom: 1px solid #ccc;
+
+        white-space: nowrap;
+
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+          background-color: #ccf;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    color: rgb(90, 90, 90);
+    font-size: 0.9rem;
+  }
+}

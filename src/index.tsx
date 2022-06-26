@@ -1,6 +1,4 @@
 import { render } from "preact";
+import { App } from "./app";
 
-function App() {
-  return <div>Hello World</div>;
-}
 render(<App />, document.body)
