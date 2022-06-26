@@ -1,0 +1,21 @@
+name: Build and Deploy to Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build Vite app
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Build
+        run: |
+          pnpm install
+          pnpm run build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
