@@ -1,12 +1,13 @@
 import { Icon } from "./icons";
 import styles from "./sidebar.module.scss";
+import { Link } from "wouter";
 
 export function Sidebar() {
   return (
     <div class={styles.Sidebar}>
-      <a href="/" class={styles.title}>
+      <Link to="/" class={styles.title}>
         Brenden Forward
-      </a>
+      </Link>
       <p class={styles.subtitle}>
         <Icon name="computer" /> Full-stack developer
       </p>

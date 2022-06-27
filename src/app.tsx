@@ -1,4 +1,4 @@
-import { Link, Route } from "wouter";
+import { Route } from "wouter";
 import styles from "./app.module.scss";
 import { Sidebar } from "./sidebar";
 import { Markdown } from "./Markdown";
@@ -41,11 +41,8 @@ export function App() {
             </ul>
           </p>
           <p>
-            I have worked with a wide variety of technologies
-            <Link to="/test" style="text-decoration:none; color:inherit; cursor: inherit">
-              ,
-            </Link>{" "}
-            and I am always open to learn new things. I am always looking to improve my skills and learn new ones.
+            I have worked with a wide variety of technologies, and I am always open to learn new things. I am always
+            looking to improve my skills and learn new ones.
           </p>
 
           <h2>Contact</h2>
