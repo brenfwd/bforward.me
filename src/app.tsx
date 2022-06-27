@@ -16,7 +16,7 @@ export function App() {
           building networking-heavy and real-time applications.
         </p>
         <p>
-          I have a background and degree in software engineering, and I am currently working on a bachelor's degree in
+          I have a background and degree in software engineering, and I am currently working on second degree in
           computer science.
         </p>
 
