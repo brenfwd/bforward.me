@@ -4,7 +4,9 @@ import styles from "./sidebar.module.scss";
 export function Sidebar() {
   return (
     <div class={styles.Sidebar}>
-      <a href="/" class={styles.title}>Brenden Forward</a>
+      <a href="/" class={styles.title}>
+        Brenden Forward
+      </a>
       <p class={styles.subtitle}>
         <Icon name="computer" /> Full-stack developer
       </p>
@@ -23,9 +25,7 @@ export function Sidebar() {
         </li>
       </ul>
 
-      <p class={styles.copyright}>
-        © {new Date().getFullYear()} Brenden Forward. All rights reserved.
-      </p>
+      <p class={styles.copyright}>© {new Date().getFullYear()} Brenden Forward. All rights reserved.</p>
     </div>
   );
 }
