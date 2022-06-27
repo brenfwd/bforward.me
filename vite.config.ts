@@ -10,4 +10,11 @@ export default defineConfig({
       mode: [Mode.HTML],
     }),
   ],
+  build: {
+    rollupOptions: {
+      input: {
+        app: "./404.html",
+      },
+    },
+  },
 });

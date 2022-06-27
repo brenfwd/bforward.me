@@ -7,9 +7,11 @@ specifiers:
   typescript: ^4.7.4
   vite: ^2.9.12
   vite-plugin-markdown: ^2.0.2
+  wouter: 2.8.0-alpha.2
 
 dependencies:
   preact: 10.8.2
+  wouter: 2.8.0-alpha.2
 
 devDependencies:
   '@preact/preset-vite': 2.2.0_preact@10.8.2+vite@2.9.12
@@ -1056,3 +1058,9 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /wouter/2.8.0-alpha.2:
+    resolution: {integrity: sha512-aPsL5m5rW9RiceClOmGj6t5gn9Ut2TJVr98UDi1u9MIRNYiYVflg6vFIjdDYJ4IAyH0JdnkSgGwfo0LQS3k2zg==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dev: false
