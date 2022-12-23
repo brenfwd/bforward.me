@@ -17,7 +17,9 @@ export function App() {
             <Route path={Routes.Home}>{Home}</Route>
             <Route>
               <h1 className="text-2xl">
-                <IconLabel icon="help">Not Found</IconLabel>
+                <IconLabel icon="help" fallback="❓">
+                  Not Found
+                </IconLabel>
               </h1>
               This page you were looking for could not be found.
               <br />
