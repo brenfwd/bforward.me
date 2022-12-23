@@ -1,10 +1,7 @@
+///<reference types="vite/client" />
+
 import { render } from "preact";
-import { App } from "./app";
 
-const fromPath = window.localStorage.getItem("path");
-if (fromPath) {
-  window.localStorage.removeItem("path");
-  window.history.replaceState({}, "", fromPath);
-}
+import { App } from "./App";
 
-render(<App />, document.body);
+render(<App />, document.getElementById("root")!);

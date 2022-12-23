@@ -1,13 +1,13 @@
-import { defineConfig } from "vite";
+import path from "node:path";
 
-import preactPlugin from "@preact/preset-vite";
-import markdownPlugin, { Mode } from "vite-plugin-markdown";
+import { defineConfig } from "vite";
+import preact from "@preact/preset-vite";
 
 export default defineConfig({
-  plugins: [
-    preactPlugin(),
-    markdownPlugin({
-      mode: [Mode.HTML],
-    }),
-  ],
+  plugins: [preact()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
 });

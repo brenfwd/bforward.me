@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Customizations
+
+code {
+  @apply text-rose-500 dark:text-rose-300;
+}
