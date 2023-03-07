@@ -16,7 +16,7 @@ export function Header() {
         {/* <a href="#">
           <IconLabel icon="description">Resumé</IconLabel>
         </a> */}
-        <a href="https://github.com/bren0xa" rel="noopener noreferer" target="_blank">
+        <a href="https://github.com/brenfwd" rel="noopener noreferer" target="_blank">
           <IconLabel icon="code" fallback={"<>"}>
             GitHub
           </IconLabel>
