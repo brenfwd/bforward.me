@@ -1,6 +1,7 @@
 import { IconLabel } from "../ui/Icon";
 
 export function Header() {
+  return <></>;
   const contactButtonClick = () => {
     window.open("mailto:contact@bforward.me");
   };
