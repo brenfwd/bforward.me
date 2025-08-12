@@ -1,4 +1,5 @@
 export function Home() {
+  return <>Hello, world! (Under construction)</>;
   return (
     <div class="flex flex-col gap-4 p-2">
       <div class="hover:shadow-md transition-all duration-400 border p-2 rounded-lg">
